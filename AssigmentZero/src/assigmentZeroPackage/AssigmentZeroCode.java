@@ -56,6 +56,9 @@ public class AssigmentZeroCode {
 
 			String FirstName = Column[0];
 			String LastName = Column[1];
+			int Age = Integer.parseInt(Column[2]);
+			String Marriage = Column[3];
+			
 
 
 
