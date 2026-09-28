@@ -50,9 +50,18 @@ public class AssigmentZeroCode {
 		// this reads every single line in the code 
 		while(reader.hasNextLine()) {
 			String line = reader.nextLine();
+
+			// this next part should be an easier way of splitting it that i found
+			String [] Column = line.split("\t");
+
+			String FirstName = Column[0];
+			String LastName = Column[1];
+
+
+
 			
-			Scanner s = new Scanner(line).useDelimiter("\\s*\t\\s*");
-			s.close();
+			//Scanner s = new Scanner(line).useDelimiter("\\s*\t\\s*");
+			//s.close();
 			
 		}
 		
